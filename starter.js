@@ -37,10 +37,18 @@ const justDoIt = (name) => {
   return name.toString();
 }
 
-console.log(justDoIt('Steve'))
+console.log(justDoIt('Steve'));
+
 // PART 1: Big or Small String?
+/*
+Write a function called bigOrSmallString() that accepts a string as an argument and returns "This word is loooooong!" if the string's length is greater than 10 and "This word is short 😬" otherwise.
+*/
+const bigOrSmallString = (str) => {
+  return str.length > 10 ? `This word is loooooong!` : `This word is short 😬`;
+}
 
-
+console.log(bigOrSmallString('kasdjfhalsdkfjldkfjlksdjflsdkfjalsdfkjh'));
+console.log(bigOrSmallString('short'));
 
 // PART 2: Odd or Even String Length?
 
