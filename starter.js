@@ -34,7 +34,7 @@ This will help us track your progress and it will give you practice writing good
 Write a function called justDoIt() that accepts a string — your name — as an argument. The function should return a string with your argument and the phrase "just do it!"
 */
 const justDoIt = (name) => {
-  return name.toString();
+  return `${name.toString()} just do it!`;
 }
 
 console.log(justDoIt('Steve'));
@@ -108,8 +108,29 @@ const initials = (name) => {
 console.log(initials('Steven Charles Huang'));
 
 // BONUS: Days of the week
+/*
+Write a JavaScript switch statement that prompts the user to specify what day it is today.
 
+How do you create a pop-up prompt in the browser? Google might know. 🙃
 
+If it's Monday, display an alert box with the message "Energize!"
+If it's Tuesday, display an alert box with the message "Just getting started!"
+If it's Wednesday, display an alert box with the message "Halfway through!"
+If it's Thursday, display an alert box with the message "Almost there!"
+If it's Friday, Saturday, or Sunday, display an alert box with the message "Weeeeeee!"
+If it's not any of the above, display an alert box with the message "Huh? Sorry, didn't get that."
+*/
+// let prompt = prompt('Which day?');
+// switch(prompt.toLowerCase()) {
+//   case 'monday':
+    
+//   case 'tuesday':
+//   case 'wednesday':
+//   case 'thursday':
+//   case 'friday':
+//   case 'saturday':
+//   case 'sunday':
+// }
 
 // BONUS: Let's take the Subway
 
