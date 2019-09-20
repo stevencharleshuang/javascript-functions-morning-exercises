@@ -51,7 +51,12 @@ console.log(bigOrSmallString('kasdjfhalsdkfjldkfjlksdjflsdkfjalsdfkjh'));
 console.log(bigOrSmallString('short'));
 
 // PART 2: Odd or Even String Length?
+const oddOrEvenString = (str) => {
+  return str.length % 2 === 0 ? `This string's length is TOTALLY even!` : `This string's length is odd...`;
+}
 
+console.log(oddOrEvenString('even'));
+console.log(oddOrEvenString('short'));
 
 
 // PART 3: Median
