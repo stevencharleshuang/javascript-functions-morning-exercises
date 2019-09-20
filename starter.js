@@ -60,8 +60,12 @@ console.log(oddOrEvenString('short'));
 
 
 // PART 3: Median
+const medianOfArray = (arr) => {
+  let sorted = arr.sort((a, b) => a - b);
+  return sorted[Math.floor(sorted.length / 2)];
+}
 
-
+console.log(medianOfArray([ 3, 2, 1, 4, 5 ]));
 
 // PART 4: Sum Array
 
