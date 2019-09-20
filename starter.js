@@ -91,8 +91,17 @@ const vowelCount = (str) => {
 
 console.log(vowelCount('beast money'))
 // PART 6: Initials
+/*
+Write a function called initials() that accepts a person's name as an argument and returns their initials.
+It should work both with and without a provided middle name.
+*/
+const initials = (name) => {
+  let initials = [];
+  name.split(' ').forEach(str => initials.push(str[0]));
+  return initials.join('');
+}
 
-
+console.log(initials('Steven Charles Huang'));
 
 // BONUS: Days of the week
 
