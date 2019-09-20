@@ -68,8 +68,14 @@ const medianOfArray = (arr) => {
 console.log(medianOfArray([ 3, 2, 1, 4, 5 ]));
 
 // PART 4: Sum Array
+/*
+Create a function called sumArray() that takes an array, arr, as an argument and returns the sum of all of the numbers in the array. If the array is empty, return zero.
+*/
+const sumArray = (arr) => {
+  return arr.reduce((acc, cur) => acc + cur);
+}
 
-
+console.log(sumArray([ 3, 2, 1, 4, 5 ]));
 
 // PART 5: Vowel Count
 
