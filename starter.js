@@ -30,9 +30,14 @@ This will help us track your progress and it will give you practice writing good
 /* ++++====+++==++++==+++++======++++===++++++=====+++==++++++++++===== */
 
 // PART 0: Just DO it!!
+/*
+Write a function called justDoIt() that accepts a string — your name — as an argument. The function should return a string with your argument and the phrase "just do it!"
+*/
+const justDoIt = (name) => {
+  return name.toString();
+}
 
-
-
+console.log(justDoIt('Steve'))
 // PART 1: Big or Small String?
 
 
