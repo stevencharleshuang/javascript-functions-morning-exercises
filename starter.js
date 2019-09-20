@@ -78,9 +78,18 @@ const sumArray = (arr) => {
 console.log(sumArray([ 3, 2, 1, 4, 5 ]));
 
 // PART 5: Vowel Count
+/*
+Create a function called vowelCount() that accepts a string, str, as an argument and returns the number of vowels in that string.
+*/
+const vowelCount = (str) => {
+  let count = 0;
+  str.toLowerCase().split('').forEach(char => {
+    if (char === 'a' || char === 'e' || char == 'i' || char === 'o' || char === 'u') count += 1;
+  });
+  return count;
+}
 
-
-
+console.log(vowelCount('beast money'))
 // PART 6: Initials
 
 
